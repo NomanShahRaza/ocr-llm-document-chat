@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Your documents, OCR runs and search index
+data/
+
+# Saved exports
+results/
+
+# Downloaded model weights (fetched from Hugging Face on first run)
+models/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

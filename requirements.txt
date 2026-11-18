@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+paddleocr[doc-parser]>=3.4.0
+transformers==5.17.0
+torch==2.14.0
+torchvision==0.29.0
+# Torch 2.14 ships cuDNN 9.10. Paddle's default 9.5 plugin fails to load in the same process.
+nvidia-cudnn-cu12==9.10.2.21
+numpy>=1.26
+# RAG uses transformers AutoModel for BAAI/bge-m3 + in-process BM25/RRF (no extra packages).
