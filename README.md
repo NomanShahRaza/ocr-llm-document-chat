@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/images/cover.jpg" alt="OCR-LLM: read any document, ask it anything" width="85%" />
+<img src="docs/images/cover.jpg" alt="OCR-LLM: read any document, ask it anything" width="90%" />
 
 <h3>Read any document. Ask it anything.</h3>
 
@@ -30,7 +30,7 @@ then lets you chat with what it found.
 ## What it does
 
 <p align="center">
-<img src="docs/images/how-it-works.svg" alt="Step 1: drop a file. Step 2: OCR reads text, tables, headings and math. Step 3: ask questions and get answers from your document." width="80%" />
+<img src="docs/images/how-it-works.svg" alt="Step 1: drop a file. Step 2: OCR reads text, tables, headings and math. Step 3: ask questions and get answers from your document." width="90%" />
 </p>
 
 <p align="center">
